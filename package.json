@@ -1,6 +1,6 @@
 {
   "name": "@potidev/eslint-config",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "ESLint configuration used by Potidev",
   "main": "index.js",
   "license": "MIT",
@@ -11,7 +11,12 @@
     "type": "git",
     "url": "git+https://github.com/potidev/eslint-config-potidev.git"
   },
-  "keywords": ["potidev", "eslint", "eslint-config", "next.js"],
+  "keywords": [
+    "potidev",
+    "eslint",
+    "eslint-config",
+    "next.js"
+  ],
   "peerDependencies": {
     "eslint": "^8.0.0",
     "typescript": ">=4"
@@ -30,10 +35,13 @@
     "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-jsx-a11y": "^6.5.1",
     "eslint-plugin-n": "^15.2.0",
+    "eslint-plugin-prettier": "5.0.0-alpha.2",
     "eslint-plugin-promise": "^6.0.0",
     "eslint-plugin-react": "^7.30.0",
     "eslint-plugin-react-hooks": "^4.5.0",
-    "prettier": "^3.0.0",
-    "eslint-plugin-prettier": "5.0.0-alpha.2"
+    "prettier": "^3.0.0"
+  },
+  "devDependencies": {
+    "eslint-plugin-simple-import-sort": "^10.0.0"
   }
 }
