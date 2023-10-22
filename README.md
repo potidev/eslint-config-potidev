@@ -1,6 +1,7 @@
 <div styles="display: flex;">
   <img src=".github/assets/img/logo.svg" style="height: 64px">
 </div>
+
 # Potidev - ESLint config
 
 ## Whats included?
