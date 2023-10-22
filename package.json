@@ -1,6 +1,6 @@
 {
   "name": "@potidev/eslint-config",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "ESLint configuration used by Potidev",
   "main": "index.js",
   "license": "MIT",
@@ -39,9 +39,7 @@
     "eslint-plugin-promise": "^6.0.0",
     "eslint-plugin-react": "^7.30.0",
     "eslint-plugin-react-hooks": "^4.5.0",
+    "eslint-plugin-simple-import-sort": "^10.0.0",
     "prettier": "^3.0.0"
-  },
-  "devDependencies": {
-    "eslint-plugin-simple-import-sort": "^10.0.0"
   }
 }
