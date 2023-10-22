@@ -1,6 +1,4 @@
-<div styles="display: flex;">
-  <img src=".github/assets/img/logo.svg" style="height: 64px; max-width: 30%;">
-</div>
+![](.github/assets/svg/logo.svg)
 
 # Potidev - ESLint config
 
