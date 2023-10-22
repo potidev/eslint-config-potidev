@@ -27,3 +27,7 @@ Inside `.eslintrc.json`
   ]
 }
 ```
+After install, run to start on Next:
+```
+npm run lint
+```
