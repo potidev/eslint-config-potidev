@@ -1,7 +1,7 @@
 ![](.github/assets/svg/logo.svg)
 
 # Potidev - ESLint config
-[![](https://img.shields.io/badge/Version-1.0.5-purple)](https://www.npmjs.com/package/@potidev/eslint-config)
+[![](https://img.shields.io/badge/Version-2.0.0-purple)](https://www.npmjs.com/package/@potidev/eslint-config)
 
 ## Whats included?
 
@@ -16,11 +16,14 @@
 ### React (with Next.js)
 
 Install dependencies:
+
 ```
 npm i -D eslint @potidev/eslint-config
 ```
+
 Inside `.eslintrc.json`
-```
+
+```json
 {
   "extends": [
     "@potidev/eslint-config/next", 
@@ -28,7 +31,31 @@ Inside `.eslintrc.json`
   ]
 }
 ```
+
 After install, run to start on Next:
+
+```
+npm run lint
+```
+
+### React (without Next.js)
+
+Install dependencies:
+
+```
+npm i -D eslint @potidev/eslint-config
+```
+
+Inside `.eslintrc.json`
+
+```json
+{
+  "extends": "@potidev/eslint-config/react"
+}
+```
+
+After install, run to start on Next:
+
 ```
 npm run lint
 ```
