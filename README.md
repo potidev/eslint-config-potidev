@@ -1,7 +1,7 @@
 ![](.github/assets/svg/logo.svg)
 
 # Potidev - ESLint config
-[![](https://img.shields.io/badge/Version-2.0.0-purple)](https://www.npmjs.com/package/@potidev/eslint-config)
+[![](https://img.shields.io/badge/Version-2.0.1-purple)](https://www.npmjs.com/package/@potidev/eslint-config)
 
 ## Whats included?
 
