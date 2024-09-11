@@ -1,7 +1,8 @@
 ![](.github/assets/svg/logo.svg)
 
-# Potidev - ESLint config
-[![](https://img.shields.io/badge/Version-2.0.2-purple)](https://www.npmjs.com/package/@potidev/eslint-config)
+# Potidev - ESLint Config
+
+[![](https://img.shields.io/badge/Version-2.0.3-purple)](https://www.npmjs.com/package/@potidev/eslint-config)
 
 ## Whats included?
 
@@ -17,7 +18,7 @@
 
 Install dependencies:
 
-```
+```bash
 npm i -D eslint @potidev/eslint-config
 ```
 
@@ -32,17 +33,28 @@ Inside `.eslintrc.json`
 }
 ```
 
-After install, run to start on Next:
+It is recommended to create a `.eslintignore` file with this content:
 
 ```
+node_modules
+.next
+.vscode
+/*.js
+**/*.svg
+```
+
+
+After install, run to start on Next:
+
+```bash
 npm run lint
 ```
 
-### React (without Next.js)
+### React (without Next.js) or React Native
 
 Install dependencies:
 
-```
+```bash
 npm i -D eslint @potidev/eslint-config
 ```
 
@@ -54,8 +66,44 @@ Inside `.eslintrc.json`
 }
 ```
 
-After install, run to start on Next:
+It is recommended to create a `.eslintignore` file with this content:
 
 ```
+node_modules
+.next
+.vscode
+/*.js
+**/*.svg
+android
+ios
+```
+
+After install, run to start on React:
+
+```bash
 npm run lint
 ```
+
+If your project does not have the "lint" script configured, use the command:
+
+```bash
+npx eslint --ext .js,.jsx,.ts,.tsx .
+```
+
+
+## Tips
+
+To fix all files, use the command:
+
+```bash
+npm run lint --fix
+```
+
+If your project does not have the "lint" script configured, use the command:
+
+```bash
+npx eslint --fix --ext .js,.jsx,.ts,.tsx .
+```
+
+
+

@@ -1,6 +1,6 @@
 {
   "name": "@potidev/eslint-config",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "description": "ESLint configuration used by Potidev",
   "main": "index.js",
   "license": "MIT",
