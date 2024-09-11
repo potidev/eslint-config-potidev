@@ -73,9 +73,6 @@ module.exports = {
     ],
     "simple-import-sort/imports": "error",
     "simple-import-sort/exports": "error",
-    "react/display-name": {
-      ignoreTranspilerName: true,
-    }
   },
   settings: {
     react: {
