@@ -12,9 +12,7 @@
 - JSX a11y plugin;
 - Prettier;
 
-## Setup
-
-### React (with Next.js)
+## Setup - React (with Next.js)
 
 Install dependencies:
 
@@ -50,7 +48,7 @@ After install, run to start on Next:
 npm run lint
 ```
 
-### React (without Next.js) or React Native
+### Setup - React (without Next.js) or React Native
 
 Install dependencies:
 
@@ -89,7 +87,6 @@ If your project does not have the "lint" script configured, use the command:
 ```bash
 npx eslint --ext .js,.jsx,.ts,.tsx .
 ```
-
 
 ## Tips
 
