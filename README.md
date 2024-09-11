@@ -48,7 +48,7 @@ After install, run to start on Next:
 npm run lint
 ```
 
-### Setup - React (without Next.js) or React Native
+## Setup - React (without Next.js) or React Native
 
 Install dependencies:
 
